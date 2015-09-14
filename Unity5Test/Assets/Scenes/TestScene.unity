@@ -169,12 +169,13 @@ GameObject:
   - 33: {fileID: 431725921}
   - 65: {fileID: 431725920}
   - 23: {fileID: 431725919}
+  - 114: {fileID: 431725923}
   m_Layer: 0
   m_Name: RedCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!23 &431725919
 MeshRenderer:
@@ -231,6 +232,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 529433796}
   m_RootOrder: 2
+--- !u!114 &431725923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 431725918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd9e30059d792ad4699947e42ec3a171, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LocalRotateEulerDelta: {x: 0, y: 1, z: 0}
+  ShouldRotateRelativeToGlobal: 1
 --- !u!1 &529433795
 GameObject:
   m_ObjectHideFlags: 0
